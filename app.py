@@ -70,6 +70,8 @@ def get_matching_citizens():
             match = len(set(dummy_volunteer_interest_list) & set(senior['interests'])) / float(len(set(dummy_volunteer_interest_list) | set(senior['interests']))) * 100
             if match >= 20:
                 matching_list.append(senior)
+        if len(matching_list) == 0:
+            return(jsonify("No matches found!"))
     elif request.headers['X-volunteer'] == "Arsalan":
         dummy_volunteer_interest_list = arsalan_interests
         matching_list = []
@@ -78,6 +80,8 @@ def get_matching_citizens():
             match = len(set(dummy_volunteer_interest_list) & set(senior['interests'])) / float(len(set(dummy_volunteer_interest_list) | set(senior['interests']))) * 100
             if match >= 20:
                 matching_list.append(senior)
+        if len(matching_list) == 0:
+            return jsonify("No matches found!")
     else:
         return jsonify("Send a valid user header!")
     return jsonify(matching_list)
