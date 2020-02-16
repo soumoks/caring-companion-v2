@@ -16,10 +16,10 @@ posts = db.posts
 post_1 = {
     'name': 'John',
     'descr': 'John is a retired army veteran who is always ready to impart wisdom and lend an ear. He is an excellent guitar player, and was known for bringing up morale at his army base with his light hearted country singing and guitar playing!',
-    'home': 'Beutiful Life Retirement',
+    'home': 'Beautiful Life Retirement',
     'interests' : ['music','chess'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/179127-275x390-senior-man-wearing-sweater.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/male3.jpg
 }
 post_2 = {
     'name': 'Judy',
@@ -27,15 +27,15 @@ post_2 = {
     'home': 'Tranquility Retirement',
     'interests' : ['games','photography'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/354-mckinsey-35-ae.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/female2.jpg
 }
 post_3 = {
     'name': 'Than',
     'descr': 'By profession, Than is an ex-banker, however, his real passion lies in homebuilding. Along with his farmhouse which he built board by board from the ground up, Than was also actively involved in volunteering to build homes for the less fortunate.',
-    'home': 'Beutiful Life Retirement',
+    'home': 'Beautiful Life Retirement',
     'interests' : ['watching TV','home building'],
     'timeslots' : ['2-4','4-6','7-9'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/4c1a491bc0aa66334a5e1f2166d38303.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/male4.jpg
 }
 post_4 = {
     'name': 'Steph',
@@ -43,7 +43,7 @@ post_4 = {
     'home': 'Utopia Terrace Retirement',
     'interests' : ['helping kids','sleeping'],
     'timeslots' : ['7-9','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/F16F988F-B16C-45D6-B6F6AD6734363BEA_source.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/female.jpg
 }
 post_5 = {
     'name': 'Amanda',
@@ -51,7 +51,7 @@ post_5 = {
     'home': 'Beutiful Life Retirement',
     'interests' : ['science','reading'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/Sixty-and-Me_10-Ideas-for-Petite-Clothing-for-Women-Over-60.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/female5.jpg
 }
 post_6 = {
     'name': 'Mark',
@@ -59,15 +59,15 @@ post_6 = {
     'home': 'Tranquility Retirement',
     'interests' : ['design','chess'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/happy-senior-man-looking-at-tablet.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/male1.jpg
 }
 post_7 = {
     'name': 'Randall',
     'descr': 'Randall was once the premier of Calgary, and was one of the most influential people in overcoming the economic downturn encountered in the 1980s. He also loves cooking and trying out new recipies!',
-    'home': 'Beutiful Life Retirement',
+    'home': 'Beautiful Life Retirement',
     'interests' : ['politics','cooking'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/istockphoto-889902628-612x612.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/male2.jpg
 }
 post_8 = {
     'name': 'Jonah',
@@ -75,7 +75,7 @@ post_8 = {
     'home': 'Utopia Terrace Retirement',
     'interests' : ['poetry','garden walks'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/lrs1485_1.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/female1.jpg
 }
 post_9 = {
     'name': 'Camille',
@@ -83,7 +83,7 @@ post_9 = {
     'home': 'Utopia Terrace Retirement',
     'interests' : ['knitting','long walks'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/senior_holidays_c4cb390619.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/male.jpg
 }
 post_10 = {
     'name': 'Meghan',
@@ -91,21 +91,21 @@ post_10 = {
     'home': 'Tranquility Retirement',
     'interests' : ['reading','music'],
     'timeslots' : ['2-4','4-6'],
-    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/seniors-citizen-age-@1X.jpg'
+    'profile' : 'https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/200px/female4.jpg
 }
 
-#new_result = posts.insert_many([post_1, post_2, post_3,post_4,post_5,post_6,post_7,post_8,post_9,post_10])
+new_result = posts.insert_many([post_1, post_2, post_3,post_4,post_5,post_6,post_7,post_8,post_9,post_10])
 
-# print('Multiple posts: {0}'.format(new_result.inserted_ids))
+print('Multiple posts: {0}'.format(new_result.inserted_ids))
 
-# for post in posts.find():
-#     print(post)
+for post in posts.find():
+        print(post)
 
 # new_list = [post for post in posts.find()]
 
 # #Find one 
 # print(posts.find_one({'name':'Sourabh'}))
 
-senior_list = [post['interests'] for post in posts.find()]
-for senior in senior_list:
-    print(senior)
+#senior_list = [post['interests'] for post in posts.find()]
+#for senior in senior_list:
+#    print(senior)
