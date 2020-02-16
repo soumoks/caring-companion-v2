@@ -58,13 +58,27 @@ Get citizens that have more than 50% match in interests
 @app.route("/getmatchingcitizens")
 @cross_origin()
 def get_matching_citizens():
-    dummy_volunteer_interest_list = ['biking']
-    matching_list = []
+    volunteer = request.headers.get('X-volunteer')
+    vaibhav_interests = ['chess','sleeping','home building','garden walks']
+    arsalan_interests = ['music','politics','science','reading']
     senior_list = [post for post in posts.find()]
-    for senior in senior_list:
-        match = len(set(dummy_volunteer_interest_list) & set(senior['interests'])) / float(len(set(dummy_volunteer_interest_list) | set(senior['interests']))) * 100
-        if match >= 30:
-            matching_list.append(senior)
+    if request.headers['X-volunteer'] == "Vaibhav":
+        dummy_volunteer_interest_list = vaibhav_interests
+        matching_list = []
+        for senior in senior_list:
+            match = len(set(dummy_volunteer_interest_list) & set(senior['interests'])) / float(len(set(dummy_volunteer_interest_list) | set(senior['interests']))) * 100
+            if match >= 20:
+                matching_list.append(senior)
+    elif request.headers['X-volunteer'] == "Arsalan":
+        dummy_volunteer_interest_list = arsalan_interests
+        matching_list = []
+        senior_list = [post for post in posts.find()]
+        for senior in senior_list:
+            match = len(set(dummy_volunteer_interest_list) & set(senior['interests'])) / float(len(set(dummy_volunteer_interest_list) | set(senior['interests']))) * 100
+            if match >= 20:
+                matching_list.append(senior)
+    else:
+        return jsonify("Send a valid user header!")
     return jsonify(matching_list)
 
 
