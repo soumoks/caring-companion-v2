@@ -1,0 +1,143 @@
+[
+    {
+      "descr": "John is a retired army veteran who is always ready to impart wisdom and lend an ear. He is an excellent guitar player, and was known for bringing up morale at his army base with his light hearted country singing and guitar playing!",
+      "home": "Beutiful Life Retirement",
+      "interests": [
+        "music",
+        "chess"
+      ],
+      "name": "John",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/179127-275x390-senior-man-wearing-sweater.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "Judy is a retired nurse with an abundance of exciting and unnerving stories about her days working in the intensive care units in various hospitals. She is passionate about photography, and loves revisiting old photo albums to keep the memories fresh and alive.",
+      "home": "Tranquility Retirement",
+      "interests": [
+        "games",
+        "photography"
+      ],
+      "name": "Judy",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/354-mckinsey-35-ae.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "By profession, Than is an ex-banker, however, his real passion lies in homebuilding. Along with his farmhouse which he built board by board from the ground up, Than was also actively involved in volunteering to build homes for the less fortunate.",
+      "home": "Beutiful Life Retirement",
+      "interests": [
+        "watching TV",
+        "home building"
+      ],
+      "name": "Than",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/4c1a491bc0aa66334a5e1f2166d38303.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6",
+        "7-9"
+      ]
+    },
+    {
+      "descr": "Steph is a much adored ex-school teacher. She has taught students of all ages and backgrounds, and is extremely passionate about passing on her knowledge. She also loves board games and chats!",
+      "home": "Utopia Terrace Retirement",
+      "interests": [
+        "helping kids",
+        "sleeping"
+      ],
+      "name": "Steph",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/F16F988F-B16C-45D6-B6F6AD6734363BEA_source.jpg",
+      "timeslots": [
+        "7-9",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "Amanda is a world renowned geologist, and was instrumental in Upstream Oil and Gas development. She has worked endlessly to promote the Oil and Gas industry in Calgary. She is also an avid reader!",
+      "home": "Beutiful Life Retirement",
+      "interests": [
+        "science",
+        "reading"
+      ],
+      "name": "Amanda",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/Sixty-and-Me_10-Ideas-for-Petite-Clothing-for-Women-Over-60.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "Mark is an ex-architect who was instrumental in the design of the Calgary Tower! He is also an avid chess player.",
+      "home": "Tranquility Retirement",
+      "interests": [
+        "design",
+        "chess"
+      ],
+      "name": "Mark",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/happy-senior-man-looking-at-tablet.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "Randall was once the premier of Calgary, and was one of the most influential people in overcoming the economic downturn encountered in the 1980s. He also loves cooking and trying out new recipies!",
+      "home": "Beutiful Life Retirement",
+      "interests": [
+        "politics",
+        "cooking"
+      ],
+      "name": "Randall",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/istockphoto-889902628-612x612.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "Jonah is a well published romance novelist. He is alwasy optimistic, and gives great advice. Jonah loves long walks in the garden, as this is the source of many of his ideas.",
+      "home": "Utopia Terrace Retirement",
+      "interests": [
+        "poetry",
+        "garden walks"
+      ],
+      "name": "Jonah",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/lrs1485_1.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "Camille is passionate about world food, and was famous for her fusion Thai inspired meat loaf back in the day! She is amazing at knitting Christmas sweaters and enjoys long walks.",
+      "home": "Utopia Terrace Retirement",
+      "interests": [
+        "knitting",
+        "long walks"
+      ],
+      "name": "Camille",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/senior_holidays_c4cb390619.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    },
+    {
+      "descr": "Meghan is a retired cardiothoracic surgeon, so if you ever want to know anything about hearts(physical or otherwise), she is the person to go to! She also loves music and reading.",
+      "home": "Tranquility Retirement",
+      "interests": [
+        "reading",
+        "music"
+      ],
+      "name": "Meghan",
+      "profile": "https://caring-companions.s3.amazonaws.com/profile_pictures/citizens/seniors-citizen-age-@1X.jpg",
+      "timeslots": [
+        "2-4",
+        "4-6"
+      ]
+    }
+  ]

@@ -2,7 +2,7 @@ from pymongo import MongoClient
 client = MongoClient('localhost', 27017)
 print("Connected")
 db = client.Citizens
-
+#Loader file for MongoDB
 """
 Citizen object fields
 #     #     self.name = name
