@@ -26,8 +26,6 @@ class JSONEncoder(json.JSONEncoder):
             return str(o)
         return json.JSONEncoder.default(self, o)
 
-app = Flask(__name__)
-app.json_encoder = JSONEncoder
 
 @app.route("/")
 def hello_world():
@@ -146,4 +144,8 @@ if __name__ == "__main__":
     db = client.Citizens
     #Choose collections posts
     posts = db.posts
+    app = Flask(__name__)
+    #use the custom JSONEncoder
+    app.json_encoder = JSONEncoder
+    #run app on port 80
     app.run(port=80)

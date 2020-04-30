@@ -1,0 +1,4 @@
+.caringvenv/*
+.vscode/*
+*.pyo
+*.pyc
