@@ -33,7 +33,7 @@ with open('D:\Python-Hack-Projects\caring-companion-v2\citizendata.json') as jso
         interests = citizen['interests']
         profile = citizen['profile']
         timeslots = citizen['timeslots']
-        table.put_item(
+        response = table.put_item(
             Item = {
                 'citizenid':citizenid,
                 'desc':desc,
@@ -44,4 +44,7 @@ with open('D:\Python-Hack-Projects\caring-companion-v2\citizendata.json') as jso
                 'timeslots':timeslots,
             }
         )
-print("Finished loading data into dynamoDB")
+        print("Put item succeeded")
+        print(json.dumps(response, indent=4))
+        
+
