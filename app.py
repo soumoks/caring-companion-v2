@@ -28,6 +28,9 @@ Get all citizens present in the DB
 @app.route("/getcitizens")
 @cross_origin()
 def get_citizens():
+    """
+    returns all citizen items present in dynamodb
+    """
     response = table.scan()["Items"]
     logger.info("All citizens returned")
     return jsonify(response)
@@ -36,6 +39,9 @@ def get_citizens():
 @app.route("/getmatchingcitizens")
 @cross_origin()
 def get_matching_citizens():
+    """
+    returns matching citizen items based on X-volunteer header passed in request
+    """
     try:
         volunteer = request.headers.get('X-volunteer')
     except:
