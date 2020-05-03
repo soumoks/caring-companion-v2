@@ -29,4 +29,4 @@ pip install -r requirements.txt
 python app.py
 ```
 
-* Deploy the application using serverless framework
+* [Deploy the application using serverless framework](https://medium.com/@soumoks/developing-a-serverless-backend-api-using-flask-39398d0eb95d)
